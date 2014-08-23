@@ -1,0 +1,212 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-color: #000000;
+	position: relative;
+	font-family: sans-serif, arial, helvetica;
+	color: #ffffff;
+}
+a {
+	text-decoration: none;
+	color: #ffffff;
+}
+a:visited{
+	text-decoration: none;
+	color: #ffffff;
+}
+a:hover {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+ol, ul {
+	list-style: none;
+	position: relative;
+}
+
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header {
+	background-color: #000000;
+	height: 260px;
+	width: 100%;
+	position: fixed;
+	margin-right: auto;
+	margin-left: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 1;
+
+}
+
+nav {
+	list-style: none;
+	height: 35px;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+nav ul li {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 1.5em;
+	padding: 5px 45px;
+	border: 1px solid #ffffff;
+	left: 195px;
+}
+
+h2 {
+	font-size: 3em;
+	font-family: helvetica, sans-serif, arial;
+	margin: 50px;
+}
+
+p {
+	margin: 50px;
+}
+
+.content {
+	margin-top: 300px;
+	position: relative;
+}
+
+.content div {
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.content div iframe {
+	width: 853px;
+	height: 580px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.about {
+	position: relative;
+	margin: 10px;
+}
+
+.hero {
+	position: relative;
+	left: 70px;
+}
+
+.banner {
+	background-image: url("images/JIW_Header.png");
+	height: 150px;
+	width: 1000px;
+	border: none;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.socials {
+	position: relative;
+	height: 20px;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.socials ul {
+	display: block;
+	position: relative;
+	left: 240px;
+}
+
+.socials ul li {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 15px 50px;
+}
+
+.socials ul li img {
+	height: 30px;
+	width: 30px;
+}
+
+.albumselect1 {
+	border: black 1px solid;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 50px;
+	background: orange;
+	border-radius: 2px;
+	position: relative;
+	height: 150px;
+	width: 600px;
+	margin: 0 0 125px 45px;
+}
+
+.albumselect1:hover {
+	background: red;
+}
+
+.albumselect2 {
+	border: black 1px solid;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 50px;
+	background: orange;
+	position: relative;
+	height: 150px;
+	width: 300px;
+	margin: 0 0 125px 0;
+}
+
+.albumselect2:hover {
+	background: red;
+}
+
+.tourdates {
+	margin-left: 50px;
+}
+
+.tour ul {
+	margin: 10px 0 0 20px;
+	position: relative;
+	display: inline-block;
+}
+
